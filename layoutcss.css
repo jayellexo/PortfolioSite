@@ -1,0 +1,36 @@
+.top {
+    width:90%; 
+    margin: auto;
+  
+
+    text-align: center; 
+    font-size: 11px; 
+    font-family: monospace;
+    border-style:solid;
+    border-width: 2px;
+    border-bottom-width: 30px;
+    border-color: #9f9a94;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+}
+
+#footer {
+    position: absolute;
+    bottom: -32px;
+    left: 10px;
+}
+
+.middle { 
+    width: 90%; 
+    margin: auto; 
+    background: lightblue; 
+    font-family: cursive;
+
+}
+html { 
+  background: url(images/leaves-336694.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
