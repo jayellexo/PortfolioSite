@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>my first website page</title>
-    <link rel="stylesheet" type="text/css" href="layoutcss.css">
+    <title>Joyce Lee's Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="layoutcss.css">
 </head>
 <body>
-    
-    <div id=navbar>
-        <a href=""><img src="www"></a>
-        <a href="\index.html">home</a>
-        <a href="\portfolio.html">portfolio</a>
-        <a href="\resume.html">CV</a>
-        <a href="\testimonials.html">testimonials</a>
-        <a href="\chaostinkerer.html">blog</a>
-        <a href="\contact.html">contact</a>
+    <div class="container">
+    <div class="text-right"><a href="index.html"><img src="\images\name3.png" width="30%"></a></div>
+    <div class="text-right" id=navbar>
+            <a href="\index.html">home</a>
+            <a href="\about.html">about</a>
+            <a href="\portfolio.html">portfolio</a>
+            <a href="/blog/" target="_blank">blog</a>
+            <a id="active" href="\contact.html">contact</a>
     </div>
-    
-    <div id=main>
-        <p id='contact'>Joyce Roberta Lee <br>
-             joyce.lee001[at]gmail.com <br>                                                          (519) 496-3661 <br>
-             [linked in site]<br>
-             [deviantart site]<br>
-        </p> 
-  
+
+        <div class="text-center">
+
+            <img src="\images\email.png">
+            <img src="\images\linkedin.png">
+            <img src="\images\github.png">
+            <img src="\images\twitter.png">
+            <img src="\images\instagram.png">
+            <p>
+            <h3>I'd love to hear from you!</h3> Who do you think makes the best pizza in town? What code editor do you use and why do you think it rocks? Whatever the topic, I'd love to hear from you!
+            </p>
+        </div>
+
+        <div id=footer>
+            &copy 2015 Joyce Lee. All rights reserved.
+        </div>
     </div>
-        
-    <div id=footer>
-        &copy 2015 copyrighted to Joyce Lee &nbsp
-    </div>
-     
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
