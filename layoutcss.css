@@ -21,6 +21,7 @@
 }
 
 /* ----- GLOBAL -----*/
+
 * {
   margin, padding: 0;
   list-style: none;
@@ -81,10 +82,17 @@ p, div {
 }
 
 /* ----- PORTFOLIO IMAGE ROTATION ----- */
+
+.portfolio-image {
+  width: 100%;
+}
+
 .image-rotation {
     position:relative;
     overflow:hidden;
-    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .image-rotation figure {
     position:relative;
