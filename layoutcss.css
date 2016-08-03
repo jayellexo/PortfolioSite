@@ -64,7 +64,6 @@ p, div {
 
 /* ----- ABOUT PAGE -----*/
 #me {
-    position: relative;
     border: 8px solid #ffffff;
     border-bottom: 40px solid #ffffff;
     box-shadow: 3px 3px 3px 3px #777;
@@ -88,25 +87,12 @@ p, div {
 }
 
 .image-rotation {
-    position:relative;
-    overflow:hidden;
-    display:flex;
     justify-content:center;
     align-items:center;
 }
-.image-rotation figure {
-    position:relative;
-    cursor:pointer;
-}
-.image-rotation figure img {
-    display:block;
-    position:relative;
-    z-index:10;
-}
+
 .image-rotation figure figcaption {
-    display:block;
     position:absolute;
-    z-index:5;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box
@@ -115,18 +101,8 @@ p, div {
     font-family:'Lato';
     color:#fff;
     font-size:20px;
-    text-align:left
 }
 
-.image-rotation figure p {
-    display:block;
-    font-family:'Lato';
-    font-size:12px;
-    line-height:18px;
-    margin:0;
-    color:#fff;
-    text-align:left
-}
 .image-rotation figure figcaption {
     top:0;
     left:0;
